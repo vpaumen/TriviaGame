@@ -1,0 +1,42 @@
+/* Using Neon Green as that was a very 90's color */
+body {
+	background-color: greenyellow;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	float: left;
+}
+/* 10% used as the button is 80% in width this will line it up perfectly */
+.phototv {
+	padding-left: 10%;
+	
+}
+button.answerchoice {
+	display: none;
+}
+/* Make the button switch color when moused over prior to hitting start */
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+/* this height works because it displays the questions and answers at eye level on the monitor */
+img {
+	height: 250px;
+	width: auto;
+	padding-left: 10%;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
+#headtitle {
+	color: rgb(189, 61, 140);
+	font-size: 60px;
+}
